@@ -16,7 +16,7 @@
 
 ### Usage
 
-<bold>change directories into the `challenge-question-one` folder run `npm run install && npm run dev` </bold>
+<bold>change directories into the `challenge-question-one` folder run `npm install && npm run dev` </bold>
 
 ### License
 
