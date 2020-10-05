@@ -15,7 +15,7 @@
 
 ### Usage
 
-See [the documentation.](https://moonjs.org)
+<bold>change directories into the `src` folder run `npm run install && npm run dev` </bold>
 
 ### License
 
