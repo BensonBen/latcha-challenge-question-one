@@ -87,14 +87,13 @@ const restaurantView = (data) => {
             class: "twelve columns",
             children: [
               label({
-                for: "emailInput",
+                for: "ukAreaCodeInput",
                 children: [text({ data: "UK Area Code" })],
               }),
               input({
                 class: "u-full-width",
                 type: "email",
-                placeholder: "text@mailbox.com",
-                id: "exampleEamilInput",
+                id: "ukAreaCodeInput",
                 "@input": onInput,
               }),
             ],
