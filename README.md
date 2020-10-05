@@ -10,8 +10,8 @@
 
 ### About
 
-See [MoonJS](https://moonjs.org/about) for more information on Moon.
-See [Skeleton](http://getskeleton.com) for more information on the skeleton css.
+- See [MoonJS](https://moonjs.org/about) for more information on Moon.
+- See [Skeleton](http://getskeleton.com) for more information on the skeleton css.
 
 ### Usage
 
