@@ -7,6 +7,7 @@
 ### Summary
 
 - :tada: Minimal CSS and Javascript required to produce a functioning application
+- :bolt: So, I read this article on medium about something called "MoonJS" not too long ago, and have been waiting an oppurtunity to try it out. As small frameworks to me at least are pretty interesting. Sometimes I think "what's the smallest possible thing to make it all work?". So, that's what this implementation is a Javascript oriented approach with as little lines as possible to update a UI, and make an HTTP request.
 
 ### About
 
