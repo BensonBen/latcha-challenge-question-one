@@ -19,7 +19,7 @@ const { run } = Moon;
 
 const parseResterauntData = (data) => {
   const { Restaurants: restaurants } = data;
-  return restaurants.map((restaurant) => {
+  return (restaurants || []).map((restaurant) => {
     return {
       name: (restaurant.Name || "No Name").trim(),
       rating: restaurant.RatingStars || 0,
@@ -125,9 +125,8 @@ const restaurantView = (data) => {
             ],
           }),
           tbody({
-            children: data.searchResults.map((searchResult) => {
-              console.log(searchResult);
-              const thing = tr({
+            children: data.searchResults.map((searchResult) =>
+              tr({
                 children: [
                   td({ children: [text({ data: searchResult.name })] }),
                   td({ children: [text({ data: searchResult.rating })] }),
@@ -135,10 +134,8 @@ const restaurantView = (data) => {
                     children: [text({ data: searchResult.foodType })],
                   }),
                 ],
-              });
-              console.log(thing);
-              return thing;
-            }),
+              })
+            ),
           }),
         ],
       }),
